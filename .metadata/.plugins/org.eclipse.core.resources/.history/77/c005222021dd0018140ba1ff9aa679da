@@ -6,11 +6,11 @@ public class Dog {
 	private int weight;
 	private String owner;
 	
-	public Dog (String n, int a , int w, String o){
-		name = n;
-		age = a;
-		weight = w;
-		owner = o;
+	public Dog (String name, int age , int weight, String owner){
+		this.name = name;
+		this.age = age;
+		this.weight = weight;
+		this.owner = owner;
 	}
 	
 	public void bark(){

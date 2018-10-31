@@ -5,8 +5,19 @@
     "error": "No class path info available for \u0027C:\\Users\\cgrosso\\Documents\\GitHub\\Chapter4\\Tracking Grades\\src\u0027. Skipped."
   },
   "C:\\Program Files\\Java\\jre1.8.0_172\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
     "location": "C:\\Program Files\\Java\\jre1.8.0_172\\lib\\rt.jar",
-    "status": "UNRESOLVED",
+    "status": "RESOLVED",
     "error": "Could not transfer artifact jre:jre:zip:call:1.0.0 from/to remote-models (http://download.eclipse.org/recommenders/models/kepler/): Error transferring file, server returned status code 307"
+  },
+  "Z:\\git\\Chapter4_Dog\\Chapter 4 (Dog)\\src": {
+    "location": "Z:\\git\\Chapter4_Dog\\Chapter 4 (Dog)\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027Z:\\git\\Chapter4_Dog\\Chapter 4 (Dog)\\src\u0027. Skipped."
+  },
+  "C:\\Users\\cgrosso\\Documents\\GitHub\\Chapter4\\Book Inventory Lab\\src": {
+    "location": "C:\\Users\\cgrosso\\Documents\\GitHub\\Chapter4\\Book Inventory Lab\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\cgrosso\\Documents\\GitHub\\Chapter4\\Book Inventory Lab\\src\u0027. Skipped."
   }
 }
