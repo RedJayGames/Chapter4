@@ -23,17 +23,14 @@ public class BookInventory {
 		this.rating = 1;
 	}
 	
-	//adds the number of new copies to stock
 	public void addInventory(int addedBooks){
 		stock+=addedBooks;
 	}
 	
-	//subtracts amount of books sold from stock 
 	public void sellInventory(int soldBooks){
 		stock-=soldBooks;
 	}
 	
-	//updates both the rating and the number of ratings
 	public void updateRating(int newRating){
 		rating = (rating * ratingsNum + newRating) / (ratingsNum + 1);
 		ratingsNum++;
@@ -71,8 +68,6 @@ public class BookInventory {
 		pageNum = newPageNum;
 	}
 	
-	//updates price. If new price is more than a 25% difference form the previous price, 
-	//it saves the new value but prints a warning as well
 	public void setPrice(double newPrice){
 		if(Math.abs(1 - (newPrice / price)) >= 0.25){
 			System.out.println("Warning: You have saved a new price with a change of more than 25%.");

@@ -6,7 +6,6 @@ public class BookInventoryDriver {
 		BookInventory book2 = new BookInventory("The Book of Java", 14.99, 256, 8, 18, 4.5);
 		BookInventory book3 = new BookInventory("The Book of Python", 11.99, 128);
 		
-		//testing methods at random
 		book3.addInventory(3);
 		System.out.println(book3.getStock());
 		book3.updateRating(4);
@@ -17,21 +16,5 @@ public class BookInventoryDriver {
 		System.out.println(book1);
 		System.out.println(book2);
 		System.out.println(book3);
-		book1.addInventory(1);
-		
-		//tests every method on book1
-		System.out.println(book1.getBookTitle());
-		System.out.println(book1.getPageNum());
-		System.out.println(book1.getPrice());
-		System.out.println(book1.getRating());
-		System.out.println(book1.getRatingsNum());
-		System.out.println(book1.getStock());
-		book1.sellInventory(5);
-		book1.setBookTitle("hi haha");
-		book1.setPageNum(54321);
-		book1.setPrice(10);
-		book1.setPrice(20);
-		book1.updateRating(1);
-		System.out.println(book1);
 	}
 }
